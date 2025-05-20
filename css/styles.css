@@ -1,0 +1,35 @@
+.header-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 10px 6px 10px;
+    background-color: rgba(256, 256, 256, 0.9);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.header-nav ul {
+  list-style: none;
+}
+
+.social-navigator {
+    z-index: 0;
+    top: 0;
+    right: 0;
+    position: absolute;
+    text-align: right;
+}
+
+.social-navigator ul {
+    list-style: none;
+    padding: 130% 10% 0 0;
+}
+
+.main-class-visual img {
+    width: 100%;
+    height: auto;
+}
