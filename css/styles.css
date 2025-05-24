@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .header-nav {
     position: fixed;
     top: 0;
@@ -29,7 +34,33 @@
     padding: 130% 10% 0 0;
 }
 
-.main-class-visual img {
+.main-visual {
     width: 100%;
-    height: auto;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.visual-hide-2 { 
+    display: block; 
+    width: 100%; 
+    height: auto; 
+}
+
+
+.visual-hide { 
+    display: none;
+}
+
+@media screen and (max-width: 1279px) {
+    .visual-hide-2 {
+        display: none;
+    }
+
+    .visual-hide {
+        display: block;
+        width: 100%; 
+        height: auto; 
+    }
 }
