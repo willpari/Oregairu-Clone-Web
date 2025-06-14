@@ -15,8 +15,8 @@ body {
     padding: 12px 10px 6px 10px;
     background-color: rgba(256, 256, 256, 0.9);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    
 }
-
 .header-nav ul {
   list-style: none;
 }
@@ -63,4 +63,56 @@ body {
         width: 100%; 
         height: auto; 
     }
+}
+
+.slider-img {
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+
+.slider-img img {
+    flex: 1 0 auto;
+    margin:  0 50xp;
+    width: 25%;
+    height: auto;
+}
+
+.banner {
+    width: 100%;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.area-info {
+        background: url(../img/bg_dot.png) repeat-x center bottom;
+}
+
+.area-basic {
+    width: 100%;
+    text-align: center;
+}
+
+.info-box {
+    padding: 0 10%;
+}
+
+.info-gr {
+    padding: 0 60% 0 0;
+    text-align: left;
+}
+
+.info-text-box {
+    display: block;
+    text-align: left;
+    padding: 2%;
+    border-bottom: 2px dotted #f4e0d0;
+}
+
+.info-pv {
+        list-style: none;
+        padding: 5% 5% 0 0;
+        display: flex;
+        align-items: center;
 }
